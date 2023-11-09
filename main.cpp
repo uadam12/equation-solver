@@ -7,6 +7,13 @@ void line() {
 
 int main() {
     char try_again;
+    string equations[] = {
+        "1. Linear equation",
+        "2. Quadratic equation",
+        "3. Simultaneous equations in 2 variables",
+        "4. Simultaneous equations in 3 variables",
+        "5. Simultaneous linear and quadratic equations"
+    };
 
     line();
     cout << '|' << setw(36) << setfill(' ') 
@@ -14,6 +21,7 @@ int main() {
     
     do {
         line();
+        for(string equation: equations) cout << equation << '\n';
         choose_equation();
 
         cout << "\nEnter 'Y' to try again: ";

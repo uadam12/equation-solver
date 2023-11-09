@@ -3,15 +3,6 @@
 
 int get_choice() {
     int choice = 0, size = 5;
-    string equations[size] = {
-        "1. Linear equation",
-        "2. Quadratic equation",
-        "3. Simultaneous equations in 2 variables",
-        "4. Simultaneous equations in 3 variables",
-        "5. Simultaneous linear and quadratic equations"
-    };
-
-    for(string equation: equations) cout << equation << '\n';
 
     while (true) {
         choice = get_number("your choice", true);
@@ -22,7 +13,7 @@ int get_choice() {
 }
 
 void choose_equation() {
-    cout << "Please select an equation.\n";
+    cout << "Please choose an equation.\n";
 
     int choice = get_choice();
     switch (choice) {
