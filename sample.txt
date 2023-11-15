@@ -1,0 +1,42 @@
+-------------------------------------------------
+|           Welcome to Equation Solver          |
+|           Sample Inputs and Outputs           |
+-------------------------------------------------
+
+1. Linear Equation
+    Problem: 2x + 4 = 0.
+    Input: m = 2, c = 4.
+    Output: x = -2.
+
+2. Quadratic Equation
+    Problem: x^2 + x - 6 = 0.
+    Input: a = 1, b = 1, c = -6.
+    Output: x1 = 2, x2 = -3.
+
+3. Simultaneous in 2 variables
+    Problem: 2x + y = 1,
+             3x + 2y = -1.
+    Input: a1 = 2, b1 = 1, c1 = 1,
+           a2 = 3, b2 = 2, c2 = -1.
+    Output: x = 3, y = -5.
+
+4. Simultaneous in 3 variables
+    Problem: 2x + y + 2z = 3,
+             3x + y + z = 0,
+             x + 2y + 5z = -2.
+    Input: a1 = 2, b1 = 1, c1 = 2, d1 = 3,
+           a2 = 3, b2 = 1, c2 = 1, d2 = 0,
+           a3 = 1, b3 = 2, c3 = 5, d2 = -2.
+    Output: x = 5.5, y = -25, z = 8.5.
+
+5. Simultaneous Linear and Quadratic
+    Problem: 3x - y = 5,
+             x^2 - 2x - y + 1 = 0.
+    Input: b1 = 3, c1 = -1, d1 = 5,
+           a = 1, b2 = -2, c2 = -1, d2 = 1.
+    Output: x1 = 2, x2 = 3,
+            y1 = 1, y2 = 4.
+
+-------------------------------------------------
+|                  Good Bye                     |
+-------------------------------------------------
