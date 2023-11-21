@@ -7,5 +7,5 @@ void solve_linear() {
           c = get_number("c"),
           x = -c/m;
 
-    cout << "x = " << x << endl;
+    print_result("x", x);
 }

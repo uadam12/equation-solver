@@ -16,6 +16,6 @@ void solve_simultaneous_in_2_variables() {
           dy = a1*c2 - c1*a2,
           x = dx / d, y = dy / d;
     
-    cout << "x = " << x << endl;
-    cout << "y = " << y << endl;
+    print_result("x", x);
+    print_result("y", y);
 }

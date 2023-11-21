@@ -18,7 +18,7 @@ void solve_simultaneous_in_3_variables() {
           dz = a1*(b2*d3 - d2*b3) - b1*(a2*d3 - d2*a3) + d1*(a2*b3 - b2*a3),
           x = dx / d, y = dy / d, z = dz / d;
     
-    cout << "x = " << x << endl;
-    cout << "y = " << y << endl;
-    cout << "z = " << z << endl;
+        print_result("x", x);
+        print_result("y", y);
+        print_result("z", z);
 }

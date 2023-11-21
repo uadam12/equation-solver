@@ -6,6 +6,7 @@ void line() {
 }
 
 int main() {
+    ofstream out("Output.txt");
     char try_again;
     string equations[] = {
         "1. Linear equation",
@@ -15,6 +16,7 @@ int main() {
         "5. Simultaneous linear and quadratic equations"
     };
 
+    set_output(&out);
     line();
     cout << '|' << setw(36) << setfill(' ') 
          << "Welcome to equation solver" << setw(13) << "|\n";
@@ -32,6 +34,7 @@ int main() {
     cout << '|' << setw(26) << setfill(' ') 
          << "Good Bye" << setw(23) << "|\n";
     line();
+    out.close();
     
     return 0;
 }

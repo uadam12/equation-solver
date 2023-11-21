@@ -1,11 +1,13 @@
 #include <iostream>
-// Our custom header file.
+#include <fstream>
 
 using namespace std;
 
-
-// Functions/Methods declerations.
+void set_output(ofstream *out);
 void choose_equation();
+void print_text(string text);
+void print_result(string description, float result);
+void print_result(float real_part, float imaginary_part);
 void solve_linear();
 void solve_quadratic();
 void solve_simultaneous_in_2_variables();

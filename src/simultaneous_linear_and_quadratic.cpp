@@ -13,16 +13,16 @@ void solve_simultaneous_linear_and_quadratic() {
           b0 = b2*c1 - b1*c2, c0 = c1*d2 + c2*d1, 
           d = b0*b0 - 4*a0*c0;
     
-    if(d < 0) cout << "Equation(s) has imaginary roots\n";
+    if(d < 0) print_text("Equation(s) has imaginary roots.");
     else {
         float x1 = (-b0 + sqrt(d)) / (2*a0),
               x2 = (-b0 - sqrt(d)) / (2*a0),
               y1 = (d1 - b1*x1) / c1,
               y2 = (d1 - b1*x2) / c1;
         
-        cout << "x1 = " << x1 << endl;
-        cout << "x2 = " << x2 << endl;
-        cout << "y1 = " << y1 << endl;
-        cout << "y2 = " << y2 << endl;
+        print_result("x1", x1);
+        print_result("y1", y1);
+        print_result("x2", x2);
+        print_result("y2", y2);
     }
 }
